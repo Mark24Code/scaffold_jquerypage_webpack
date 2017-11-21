@@ -1,0 +1,37 @@
+{
+    "name": "scaffold_jquerypage_webpack",
+    "version": "0.0.1",
+    "description": "webpack3辅助开发jquery页面",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --config build/webpack.dev.conf.js",
+        "dev": "webpack-dev-server --config build/webpack.dev.conf.js",
+        "build": "webpack --config build/webpack.prd.conf.js "
+    },
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "clean-webpack-plugin": "^0.1.17",
+        "copy-webpack-plugin": "^4.2.1",
+        "css-loader": "^0.28.7",
+        "expose-loader": "^0.7.4",
+        "html-webpack-plugin": "^2.30.1",
+        "mockjs": "^1.0.1-beta3",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.0",
+        "url-loader": "^0.6.2",
+        "webpack": "^3.8.1",
+        "webpack-dev-server": "^2.9.4",
+        "webpack-merge": "^4.1.1"
+    },
+    "author": "Mark24",
+    "license": "MIT",
+    "dependencies": {
+        "datatables": "^1.10.13",
+        "jquery": "1.9.1",
+        "layui-src": "^2.2.2"
+    }
+}
